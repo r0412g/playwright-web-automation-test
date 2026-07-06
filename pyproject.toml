@@ -1,0 +1,11 @@
+[tool.pytest]
+minversion = "6.0"
+addopts = ["-ra", "-q"]
+testpaths = [
+    "tests",
+]
+
+markers = [
+    "smoke: 核心功能冒煙測試",
+    "regression: 完整功能回歸測試"
+]
